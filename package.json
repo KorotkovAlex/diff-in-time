@@ -1,0 +1,23 @@
+{
+  "name": "diff-in-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KorotkovAlex/diff-in-time.git"
+  },
+  "keywords": [
+    "js",
+    "time"
+  ],
+  "author": "Alex Korotkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KorotkovAlex/diff-in-time/issues"
+  },
+  "homepage": "https://github.com/KorotkovAlex/diff-in-time#readme"
+}
