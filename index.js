@@ -47,6 +47,18 @@ function getDiffInYears(params) {
   return different / 1000 / 60 / 60 / 24 / 365;
 }
 
+function getDiffAll(params) {
+  return {
+    seconds: getDiffInSeconds(params),
+    minutes: getDiffInMinutes(params),
+    hours: getDiffInHours(params),
+    days: getDiffInDays(params),
+    weeks: getDiffInWeeks(params),
+    months: getDiffInMonth(params),
+    years: getDiffInYears(params),
+  };
+}
+
 module.exports = {
   getDiffInSeconds,
   getDiffInMinutes,
@@ -55,4 +67,5 @@ module.exports = {
   getDiffInWeeks,
   getDiffInMonth,
   getDiffInYears,
+  getDiffAll,
 };
